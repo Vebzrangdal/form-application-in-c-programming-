@@ -24,7 +24,6 @@ int main() {
         return 1;
     }
 
-    // Write user input to the file
     fprintf(file, "Name: %s", name);
     fprintf(file, "Address: %s", address);
     fprintf(file, "Phone Number: %s", phone);
@@ -33,7 +32,6 @@ int main() {
     fprintf(file, "State: %s", state);
     fprintf(file, "Country: %s", country);
 
-    // Close the file
     fclose(file);
 
     printf("User data has been written to userdata.txt\n");
